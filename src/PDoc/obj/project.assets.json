@@ -3245,31 +3245,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MUZTABA\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MUZTABA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\E-Books & Codes\\Codes\\Work\\DoxReader\\PDoc2\\src\\PDoc\\PDoc2.csproj",
+      "projectUniqueName": "D:\\github\\PDoc2\\src\\PDoc\\PDoc2.csproj",
       "projectName": "PDoc2",
-      "projectPath": "D:\\Documents\\E-Books & Codes\\Codes\\Work\\DoxReader\\PDoc2\\src\\PDoc\\PDoc2.csproj",
+      "projectPath": "D:\\github\\PDoc2\\src\\PDoc\\PDoc2.csproj",
       "packagesPath": "C:\\Users\\MUZTABA\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\E-Books & Codes\\Codes\\Work\\DoxReader\\PDoc2\\src\\PDoc\\obj\\",
+      "outputPath": "D:\\github\\PDoc2\\src\\PDoc\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MUZTABA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\MUZTABA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0-windows7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3317,39 +3310,39 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[9.0.10, 9.0.10]"
+            "version": "[9.0.20, 9.0.20]"
           }
         ],
         "frameworkReferences": {
@@ -3360,7 +3353,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

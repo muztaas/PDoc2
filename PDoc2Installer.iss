@@ -5,19 +5,17 @@ AppVersion=1.0.0
 AppPublisher=muztaas
 DefaultDirName={pf}\PDoc2
 DefaultGroupName=PDoc2
-OutputDir=d:\Documents\E-Books & Codes\Codes\Work\DoxReader\PDoc2\Output
+OutputDir=Output
 OutputBaseFilename=PDoc2Setup
 Compression=lzma
 SolidCompression=yes
 
 [Files]
-Source: "src\PDoc\bin\Debug\net9.0-windows7.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
-Source: "src\PDoc\Images\*"; DestDir: "{app}\Images"; Flags: ignoreversion recursesubdirs
-Source: "src\PDoc\Python\*"; DestDir: "{app}\Python"; Flags: ignoreversion recursesubdirs
+Source: "src\PDoc\bin\Release\net9.0-windows7.0\win-x64\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
 
 [Icons]
 Name: "{group}\PDoc2"; Filename: "{app}\PDoc2.exe"
-Name: "{userdesktop}\PDoc2"; Filename: "{app}\PDoc2.exe"; Tasks: desktopicon
+Name: "{autodesktop}\PDoc2"; Filename: "{app}\PDoc2.exe"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\PDoc2.exe"; Description: "Launch PDoc2"; Flags: postinstall skipifsilent

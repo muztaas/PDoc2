@@ -1,16 +1,20 @@
-#define MyAppName "PDoc"
+#define MyAppName "PDoc2"
 #define MyAppVersion "1.0.0"
-#define MyAppPublisher "Your Company"
-#define MyAppExeName "PDoc.exe"
+#define MyAppPublisher "muztaas"
+#define MyAppExeName "PDoc2.exe"
 
 [Setup]
 AppId={{12345678-1234-1234-1234-123456789012}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-DefaultDirName={autopf}\{#MyAppName}
+UninstallDisplayName={#MyAppName}
+DefaultDirName={autopf}\PDoc2
+UsePreviousAppDir=no
+ArchitecturesAllowed=x64compatible
+ArchitecturesInstallIn64BitMode=x64compatible
 DefaultGroupName={#MyAppName}
-OutputBaseFilename=PDoc_Setup
+OutputBaseFilename=PDoc2Setup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -22,8 +26,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "src\PDoc\bin\Release\net6.0-windows\win-x64\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
-Source: "src\PDoc\Python\*"; DestDir: "{app}\Python"; Flags: ignoreversion recursesubdirs
+Source: "..\src\PDoc\bin\Release\net9.0-windows7.0\win-x64\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"

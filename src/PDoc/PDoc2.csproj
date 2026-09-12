@@ -7,12 +7,13 @@
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x64;ARM64;x86</Platforms>
     <RuntimeIdentifiers>win-x86;win-x64;win-arm64</RuntimeIdentifiers>
+    <SelfContained>true</SelfContained>
   </PropertyGroup>
 
   <PropertyGroup>
     <Authors>Your Name</Authors>
     <Company>Your Company</Company>
-    <Product>PDoc</Product>
+    <Product>PDoc2</Product>
     <Description>Word to PDF Converter</Description>
     <Copyright>Copyright  2025</Copyright>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>

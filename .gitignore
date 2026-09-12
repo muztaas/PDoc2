@@ -28,6 +28,33 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python build and packaging results
+build/
+dist/
+wheelhouse/
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
